@@ -46,7 +46,7 @@
     
     __weak __typeof(self) weakSelf = self;
     
-    [UIView animateWithDuration:3 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
          weakSelf.alpha = 1.0;
         
      
@@ -56,7 +56,7 @@
          
      }];
     
-    [UIView animateWithDuration:3 animations:^{
+    [UIView animateWithDuration:5 animations:^{
         CGFloat leftx = _animationRect.origin.x;
         CGFloat width = _animationRect.size.width;
         
