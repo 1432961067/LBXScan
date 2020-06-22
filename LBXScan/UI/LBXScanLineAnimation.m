@@ -46,7 +46,7 @@
     
     __weak __typeof(self) weakSelf = self;
     
-    [UIView animateWithDuration:0.5 animations:^{
+    [UIView animateWithDuration:2 animations:^{
          weakSelf.alpha = 1.0;
         
      
