@@ -56,7 +56,7 @@
          
      }];
     
-    [UIView animateWithDuration:3 animations:^{
+    [UIView animateWithDuration:4 animations:^{
         CGFloat leftx = _animationRect.origin.x;
         CGFloat width = _animationRect.size.width;
         
